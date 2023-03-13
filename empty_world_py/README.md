@@ -11,7 +11,12 @@
 >> colcon build --symlink-install
 >> source ~/ros2_ws/install/setup.bash
 # open gazebo using the world file in this package
+# make sure that you have a X-server (like Xming) running
 >> ros2 launch empty_world_py empty_world.launch.py
+```
+### Test the gazebo simulation environment
+```
+# open a new ubuntu shell
 # check gazebo topics and services
 >> ros2 topic list
 >> ros2 service list
@@ -19,8 +24,10 @@
 >> ros2 run gazebo_ros spawn_entity.py -file ~/ros2_ws/src/oneball_urdf/oneball.urdf -entity oneball -z 1
 # transport the model to (0, 0, 5) and throw it to y direction at 10.0 m/s
 >> ros2 service call /me454/set_entity_state gazebo_msgs/srv/SetEntityState "state: {name: 'oneball', pose: {position: {x: 0.0, y: 0.0, z: 5.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, twist: {linear: {x: 0.0, y: 10.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}, reference_frame: ''}"
+
 ```
- 
+
+
 ## Notes
 ### in package.xml
 #### <exec_depend>ros2launch</exec_depend>
