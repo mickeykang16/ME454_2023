@@ -1,7 +1,7 @@
 # ME454 Dynamics System Programming
 ### Department of Mechanical Engineering, KAIST, South Korea  
 #### Lecturer : Prof. Seungbum Koo (skoo at kaist.ac.kr)  
-#### TA : Seungwoo Yoon (seungwoo.yoon@kaist.ac.kr), Junyo Boo (junyo94@kaist.ac.kr), Jeongseok Oh (dhwjdtjr0 at kaist.ac.kr), and Gunwoo Park (parkgw@kaist.ac.kr)
+#### TA : Seungwoo Yoon (seungwoo.yoon@kaist.ac.kr), Junyo Boo (junyo94@kaist.ac.kr), Jeongseok Oh (dhwjdtjr0 at kaist.ac.kr), Gunwoo Park (parkgw@kaist.ac.kr), and Beomsoo Shin (sbs0323@kaist.ac.kr)
 ### The packages are tested in WSL Ubuntu 20.04 with ROS2 Foxy Fitzroy and Gazebo 11 (classic)
 ## Packages for practice sessions
 
