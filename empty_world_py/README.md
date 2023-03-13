@@ -49,3 +49,5 @@ Line 015 (os.path.join('share', package_name, 'launch'), glob('launch/*')),
   - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 - ROS 2 Documentation (Foxy), Creating a launch file
   - https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Creating-Launch-Files.html
+- Tutorial: ROS2 launch files – All you need to know
+  - https://roboticscasual.com/tutorial-ros2-launch-files-all-you-need-to-know/
