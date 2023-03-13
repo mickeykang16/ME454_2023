@@ -40,6 +40,6 @@ Line 002 from glob import glob
 Line 015 (os.path.join('share', package_name, 'launch'), glob('launch/*')),
 ```
 ## Also see the files in launch
-### empty_world.launch.py
-### empty_state.world
-> libgazebo_ros_state.so is loaded through the world file
+- empty_world.launch.py
+- empty_state.world
+-- libgazebo_ros_state.so is loaded through the world file
