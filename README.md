@@ -7,12 +7,19 @@
 
 ### Installation
 ```
->> ... 
+>> mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
+# remove all files in ~/ros2_ws/src before executing the following command
+# note the dot "." at the end of the command
+>> git clone https://github.com/skoo1/ME454_2023.git .
+>> cd ~/ros2_ws
+>> colcon build --symlink-install
+>> source ~/ros2_ws/install/setup.bash
+# open gazebo using the world file in this package
+>> ros2 launch <package_name> <executable_name>
 ```
 See the documents (README.MD) in the weekly project folders for details
 
-### Week 2. oneball_urdf
-Loading a sphere and throwing it using a service call  
-We can see that the dynamics works in Gazebo  
+### Week 2. Title
 
-### Week 3. oneball_urdf
+
+### Week 3. Title
