@@ -2,7 +2,7 @@
 ### Installation
 ```
 # skip --- mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
-# skip --- ros2 pkg create empty_world_py --build-type ament_python
+# skip --- ros2 pkg create --build-type ament_python empty_world_py
 >> cd ~/ros2_ws/src
 # remove all files in ~/ros2_ws/src before executing the following command
 # note the dot "." at the end of the command
