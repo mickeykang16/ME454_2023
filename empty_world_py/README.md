@@ -30,11 +30,16 @@
 
 ## Notes
 ### in package.xml
-#### <exec_depend>ros2launch</exec_depend>
+```
+Line 015   <exec_depend>ros2launch</exec_depend>
+```
 ### in setup.py
-#### import os
-#### from glob import glob
-#### (os.path.join('share', package_name, 'launch'), glob('launch/*')),
+```
+Line 001 import os
+Line 002 from glob import glob
+Line 015 (os.path.join('share', package_name, 'launch'), glob('launch/*')),
   
 ## Also see the files in launch
-### libgazebo_ros_state.so is loaded through the world file
+### empty_world.launch.py
+### empty_state.world
+#### libgazebo_ros_state.so is loaded through the world file
