@@ -43,3 +43,7 @@ Line 015 (os.path.join('share', package_name, 'launch'), glob('launch/*')),
 - empty_world.launch.py
 - empty_state.world
   - libgazebo_ros_state.so is loaded through the world file
+
+## References
+- ROS 2 Documentation (Foxy), Creating a launch file
+  - https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Creating-Launch-Files.html
