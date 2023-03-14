@@ -15,7 +15,7 @@
 >> colcon build --symlink-install
 >> source ~/ros2_ws/install/setup.bash
 # open gazebo using the world file in this package
->> ros2 launch <package_name> <executable_name>
+>> ros2 launch <package_name> <launch_file_name>
 ```
 See the documents (README.MD) in the weekly project folders for details
 
