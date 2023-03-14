@@ -2,9 +2,10 @@
 ### Department of Mechanical Engineering, KAIST, South Korea  
 - Lecturer : Prof. Seungbum Koo (skoo at kaist.ac.kr)  
 - TA : Seungwoo Yoon (seungwoo.yoon at kaist.ac.kr), Junyo Boo (junyo94 at kaist.ac.kr), Jeongseok Oh (dhwjdtjr0 at kaist.ac.kr), Gunwoo Park (parkgw at kaist.ac.kr), and Beomsoo Shin (sbs0323 at kaist.ac.kr)
-### The packages are tested in WSL Ubuntu 20.04 with ROS2 Foxy Fitzroy and Gazebo 11 (classic)
+  
 ## Packages for practice sessions
-
+### The packages are tested in WSL Ubuntu 20.04 with ROS2 Foxy Fitzroy and Gazebo 11 (classic)
+  
 ### Installation
 ```
 >> mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
