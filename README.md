@@ -4,7 +4,7 @@
 - TA : Seungwoo Yoon (seungwoo.yoon at kaist.ac.kr), Junyo Boo (junyo94 at kaist.ac.kr), Jeongseok Oh (dhwjdtjr0 at kaist.ac.kr), Gunwoo Park (parkgw at kaist.ac.kr), and Beomsoo Shin (sbs0323 at kaist.ac.kr)
   
 ## Packages for practice sessions
-### The packages are tested in WSL Ubuntu 20.04 with ROS2 Foxy Fitzroy and Gazebo 11 (classic)
+### The packages are tested in WSL2 Ubuntu 20.04 with ROS2 Foxy Fitzroy and Gazebo 11 (classic)
   
 ### Installation
 ```
