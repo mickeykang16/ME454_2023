@@ -20,7 +20,9 @@
 ```
 See the documents (README.MD) in the weekly project folders for details
 
-### Week 2. Title
+### Week 2. Ubuntu and ROS 2 installation
 
+### Week 3. Linux commands
 
-### Week 3. Title
+### Week 4. 
+
