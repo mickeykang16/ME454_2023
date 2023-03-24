@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import setup
 
-package_name = 'rigidbody'
+package_name = 'ball_throwing'
 
 setup(
     name=package_name,
