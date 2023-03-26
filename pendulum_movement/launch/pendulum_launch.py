@@ -26,10 +26,11 @@ def generate_launch_description():
 
 	file_path = os.path.realpath(__file__)
 	file_dir = os.path.dirname(file_path)
-	pkg_src_dir = os.path.join(file_dir, '..', '..', '..', '..', 'src', 'ball_throwing')
-
-	world_file_name = 'ball.world'
+	pkg_src_dir = os.path.join(file_dir, '..', '..', '..', '..', 'src', 'pendulum_movement')
+	
+	world_file_name = 'pendulum.world'
 	world_path = os.path.join(pkg_src_dir, 'worlds', world_file_name)
+
 	world = LaunchConfiguration('world')
 
 	return LaunchDescription([
