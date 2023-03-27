@@ -42,7 +42,20 @@ int MyLinkedList::at(int index)
 // Returns -1 if the item is negative
 int MyLinkedList::append(int item)
 {
-    return -1;
+    // return -1
+    if (item < 0) return -1;
+
+    // move to the tail node of the list
+    Node *curr = head;
+    for (int i_link = 0; i_link < len; i_link++) curr = curr->next;
+
+    // add the item to the list and increase the length
+    curr->next = new Node;
+    curr->next->item = item;
+    curr->next->next = NULL;
+    len++;  
+
+    return 0;
 }
 
 // Adds an item to the specific position (index) of the list

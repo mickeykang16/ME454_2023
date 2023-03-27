@@ -26,7 +26,15 @@ def generate_launch_description():
 
 	file_path = os.path.realpath(__file__)
 	file_dir = os.path.dirname(file_path)
-	pkg_src_dir = os.path.join(file_dir, '..', '..', '..', '..', 'src', 'ball_throwing')
+	(head_path, tail_path) = os.path.split(file_path)
+	(head_path, tail_dir0) = os.path.split(head_path)
+	(head_path, tail_dir1) = os.path.split(head_path)
+	(head_path, tail_dir2) = os.path.split(head_path)
+	print(tail_dir2)
+	if (tail_dir2 == 'src'): # symlink-install
+		pkg_src_dir = os.path.join(file_dir, '..')
+	else: # not symlink-install
+		pkg_src_dir = os.path.join(file_dir, '..', '..', '..', '..', '..', 'src', 'ball_throwing')
 
 	world_file_name = 'ball.world'
 	world_path = os.path.join(pkg_src_dir, 'worlds', world_file_name)
