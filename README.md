@@ -24,5 +24,10 @@ See the documents (README.MD) in the weekly project folders for details
 
 ### Week 3. Linux commands
 
-### Week 4. 
+### Week 4. CPP practice
+- CPP Practice #1  
+- Ball throwing (package)  
 
+### Week 5. CPP practice
+- CPP Practice #2  
+- Pendulum movement (package)  
