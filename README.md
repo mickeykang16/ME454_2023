@@ -24,5 +24,14 @@ See the documents (README.MD) in the weekly project folders for details
 
 ### Week 3. Linux commands
 
-### Week 4. 
+### Week 4. CPP practice
+- CPP Practice #1  
+- Ball throwing (package)  
+- SDF file
+- Mechanical properties of a single object
+- ROS service call
 
+### Week 5. CPP practice
+- CPP Practice #2  
+- Pendulum movement (package)  
+- Multi-body system simulation  
