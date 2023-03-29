@@ -41,13 +41,6 @@
       <update_rate>10</update_rate>
     </plugin>
 
-    <plugin name="gazebo_ros_force_system" filename="libgazebo_ros_force_system.so">
-      <ros>
-        <namespace>/demo</namespace>
-      </ros>
-      <update_rate>10</update_rate>
-    </plugin>
-
     <include>
       <uri>model://ground_plane</uri>
     </include>
@@ -57,13 +50,6 @@
 
     <!-- Edit world gravity here -->
     <gravity>0.0 0.0 -9.81</gravity>
-
-    <!-- Pendulum object -->
-    <include>
-      <uri>model://pendulum_sdf</uri>
-      <name>pendulum0</name>
-      <pose>0.0 0.0 2.0 0.0 0.0 0.0</pose>
-    </include>
     
   </world>
 </sdf>

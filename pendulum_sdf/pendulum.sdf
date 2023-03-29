@@ -4,7 +4,7 @@
   <!-- Pendulum object -->
 
   <model name='pendulum' canonical_link='string'>
-    <pose relative_to='world'>0.0 0.0 1.0 0.0 0.0 0.0</pose>
+    <pose relative_to='world'>0.0 0.0 1.5 0.0 0.0 0.0</pose>
 
     <link name='string0'>
       <pose relative_to='__model__'>0.0 0.0 -0.25 0.0 0.0 0.0</pose>
