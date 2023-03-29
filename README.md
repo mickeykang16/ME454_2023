@@ -23,6 +23,7 @@ See the documents (README.MD) in the weekly project folders for details
 ### Week 2. Ubuntu and ROS 2 installation
 
 ### Week 3. Linux commands
+- Homework #1  
 
 ### Week 4. CPP practice
 - [CPP Practice #1](./cpp_practice1)  
@@ -35,3 +36,4 @@ See the documents (README.MD) in the weekly project folders for details
 - [CPP Practice #2](./cpp_practice2)  
 - [Pendulum movement (package)](./pendulum_movement)  
   - Multi-body system simulation  
+- Homework #2  
