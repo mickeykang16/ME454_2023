@@ -26,12 +26,12 @@ See the documents (README.MD) in the weekly project folders for details
 
 ### Week 4. CPP practice
 - [CPP Practice #1](./cpp_practice1)  
-- Ball throwing (package)  
+- [Ball throwing (package)](./ball_throwing)  
   - SDF file
   - Mechanical properties of a single object
   - ROS service call
 
 ### Week 5. CPP practice
 - [CPP Practice #2](./cpp_practice2)  
-- Pendulum movement (package)  
+- [Pendulum movement (package)](./pendulum_movement)  
   - Multi-body system simulation  
